@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     
+    <link rel="stylesheet" href="..//Project/home.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <img src="..//Project/Gym/logo1.jpeg" id="logo1"> 
+        <img src="..//Project/Gym/logo.jpg" id="logo2"> 
+        <input type="checkbox" name="" class="btn"/>
+        <div class="nav">
+            <ol>
+                <li>
+                    <a href="Home.html">Home</a>
+                </li>
+                <li>
+                    <a href="Gym.html">Workouts</a>
+                </li>
+                <li>
+                    <a href="Yoga.html">Yoga</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="login.html">Join Now</a>
+                </li>
+            </ol>
+        </div>
+        <!-- <div class="container">
+            <p class="heading">Log In</p>
+            <div class="box">
+                <p>E-mail</p>
+                <div>
+                    <input type="email" name="" id="emailId" placeholder="Enter your Email" onblur="validation5()">
+                    <span id="error5"></span>
+
+                </div>
+            </div>
+            <div class="box">
+                <p>Password</p>
+                <div>
+                    <input type="password" name="" id="" placeholder="Enter your password">
+
+                </div>
+
+            </div>
+
+        </div>
+        <button class="loginBtn" >Log in</button>
+        <p class="text">Don't You have an account ?<a href="#">Sign Up</a></p>
+    </div> -->
+    <form action="regsuccess.html"class="container" novalidate> <!-- novalidate : to disable browser validation-->
+<table border="1">
+<tr><td><label for="fname">First Name:</label></td>
+<td> <input type="text" id="fname" name="myname" value="" onblur="validate1()" ></td></tr>
+
+<tr>
+    <td></td><td><span id="error1"></span></td>
+</tr><tr><td><label for="lname">Last Name:</label></td><td> 
+<input type="text" id="lname" name="myname" onblur="validate2()"> </td></tr>
+<tr>
+    <td></td><td><span id="error2"></span></td></tr>
+
+<tr><td><label for="pass">Password:</label></td>
+<td><input type="password" id="pass"  name="pass" onblur="validate3()" required></td></tr>
+<tr>
+    <td></td><td><span id="error3"></span></td></tr>
+
+<tr><td><label for="c_pass">Confirm Password:</label></td>
+<td><input type="password" id="c_pass" name="pass" onblur="validate4()"></td></tr>
+<tr>
+    <td></td><td><span id="error4"></span></td></tr>
+
+    <tr><td><label for="mail">Enter Email: </label></td>
+        <td><input type="email" id="emailId" name="mail" onblur="validate5()"></td></tr>
+        <tr>
+            <td></td><td><span id="error5"></span></td></tr>
+
+<tr><td><label for="age">Age:</label></td>
+<td><input type="number" id="age" name="age" onblur="validate6()" ></td></tr>
+<tr>
+    <td></td><td><span id="error6"></span></td></tr>
+
+<tr><td><label for="mobileno">Mobile :</label></td>
+    <!-- it should contain only digits -->
+    <td><input type="tel" id="mobileno" onblur="validate7()"></td></tr>
+    <tr>
+        <td></td><td><span id="error7"></span></td></tr>
+
+
+<tr><td><label for="address">Address :</label></td>
+    <td><textarea id="address"></textarea></td>
+</tr>
+<tr><td><label for="address">City :</label></td>
+    <td>
+        <select id="city">
+            <option value="navimumbai">Navi Mumbai</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+    </td>
+</tr>
+<tr><td><label>Gender :</label></td>
+    <td>
+     <label for="male">MALE:</label><input type="radio" id="male" name="gender" value="male">
+     <label for="female">FEMALE:</label><input type="radio" id="female" name="gender"  value="female">
+    </td>
+</tr>
+<tr><td colspan="2"><input type="submit" value="Register"><input type="reset"></td></tr>
+</table>
+</form><br><br><br>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+           
+        <footer id="footer">"Eat well...WorkOut well...Be Fit well"</footer>
+        <footer style="text-align: center; color: antiquewhite;">All rights reserved at SR Fitness</footer>
+      
+    <script src="..//Project/Home.js"></script>                   
+    </body>
+</html>

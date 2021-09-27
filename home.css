@@ -1,0 +1,330 @@
+#logo1{
+    height: 100px;
+    width: 150px;
+    left: 20px;
+    position: fixed;
+}
+#logo2{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    
+   
+    
+    margin-top: 20px;
+    
+    left: 900px;
+    top: 10px;
+    
+
+}
+ 
+
+html {    
+    background: url('https://images.unsplash.com/photo-1612090295965-e506249ccecc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGd5bSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center fixed;     
+    background-size: cover;
+}
+#head1{
+
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+   color: yellow;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    margin-top: 100px;
+
+
+}
+#pic1{
+    
+    height: 300px;
+    width: 400px;
+}
+#para1{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-left: 400px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    line-height: 30px;
+   /*  font-size:x-large;*/
+} 
+.cap{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+#figure1{
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    left: 300px;
+}
+#figure2{
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    left: 300px;
+}
+#figure3{
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    left: 300px;
+}
+.gallery{
+    border: 5px solid white ;
+    border-radius: 20px 20px 20px 20px;
+    height: 200px;
+    width: 300px;
+    align-content: center;
+    align-items: center;
+    margin-left: 500px;
+}
+.gallery1{
+    border: 5px solid white ;
+    border-radius: 20px 20px 20px 20px;
+    height: 300px;
+    width: 500px;
+    margin-left: 450px;
+}
+#footer{
+    color:beige;
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: cursive;
+ }
+ .logo{
+     color: rgb(44, 44, 44);
+     font-size: 1.5em;
+
+ }
+ .nav{
+     display: flex;
+    position: fixed;
+      
+      
+ }
+ #video{
+     margin-top: 100px;
+ }
+ .nav ol{
+     display: flex;
+     list-style: none;
+ }
+ .btn{
+     position: relative;
+     width: 25px;
+     height: 25px;
+     -webkit-appearance: none;
+     appearance: none;
+     cursor: pointer;
+     display: none;
+ }
+ .btn::before{
+     content: '\f0c9';
+     position: absolute;
+     top: 0;
+     left: 0;
+     font-family: 'Font Awesome 5 Free';
+     font-weight: 700;
+     font-size: 2em;
+ }
+ .nav ol li{margin: 1em;}
+ .nav ol li a{
+     text-decoration: none;
+     padding: 0.2em 1.2em 0.9em 1.2em;
+     border-radius: 10px 10px 0 0;
+     
+     color: white;
+     transition: all .4s;
+     position: relative;
+     z-index: 1;
+
+ }
+ .nav ol li a::before{
+     content: '';
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 41px;
+     border-radius: 10px 10px 0 0;
+     background: #853333;
+     transform-origin: bottom;
+    /*  background: linear-gradient(to right,#2C5364,#203A43,#0F2027); */
+    background: linear-gradient(to right,#ff416c,#ff4b2b,#ff416d65);
+     transform: scaleY(0.05);
+     z-index: -1;
+     transition: all .4s;
+ }
+ .nav ol li a:hover::before{transform: scaleY(1.1);}
+ .nav ol li a:hover{color: white;}
+ .heading{
+     font-size: 2em;
+     margin-bottom: 0.5em;
+ }
+ .box{
+     margin: 0.2em 0;
+ }
+ .container .box p{
+    color: rgba(255, 255, 255, 0.781);
+ }
+ .container .box div{
+     position: relative;
+     width: 100%;
+     height: 40px;
+     margin: 0.5em 0;
+ }
+ .container .box input{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: rgb(19,19, 19);
+     color: white;
+     border: none;
+     outline: none;
+     padding-left: 0.8em;
+     border-radius: 10px;
+     transition: all .4s;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ .container{
+     background: rgb(15, 15, 15) ;
+     width:350px;
+     height: 450px;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+     padding: 2em;
+     margin-top: 100px;
+     margin-left: 520px;
+ }
+ .loginBtn:hover{
+     transform: translate(-1%,5%);
+     box-shadow: 0 0 10px #ff416d65;
+ }
+ .text{
+     font-size: 0.8em;
+     margin-top: 0.5em;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.623);
+ }
+ .text a{
+     color: rgba(255, 255, 255, 0.911);
+ }
+ .container .box input:focus::placeholder{
+     color: white;
+ }
+ .container .box div::before{
+     content: '';
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 102%;
+     height: 105%;
+     border-radius: 10px;
+     background: linear-gradient(to right, #ff416c, #ff4b2b);
+ }
+ .loginBtn{
+     width: 102%;
+     height: 40px;
+     border: none;
+     border-radius: 10px;
+     margin: 0.5em 0;
+     transform: translate(-1%);
+     cursor: pointer;
+     color: white;
+     background: linear-gradient(to right, #ff416c, #ff4b2b);
+     transition: all .4s;
+ }
+
+ #suc{
+     color: chartreuse;
+     text-align: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     margin-top: 200px;
+     margin-bottom: auto;
+
+ }
+
+/* slide show gym page*/
+.gallery_pic{
+    width: 100%;
+    height: 100%;
+
+
+ }
+  .gallery2{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+ } 
+
+
+ /* social media icons*/
+ .fa {
+    padding: 20px; 
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+    
+   
+    display: block;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 600px;
+
+    
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+   
+
+    }
+    .fa-instagram {
+        background: #125688;
+        color: white;
+
+       
+      }
+    
+
+
+ 
